@@ -31,11 +31,6 @@ def get_row(num,size,spaces):
     return row
 def display_separator(size,spaces):
     print("-"*((size+1)*spaces)
-
-def display_table(size,spaces):           
-    while num <= size
-
-
  
     
 def display_heading(size,spaces):
@@ -49,6 +44,5 @@ def main():
  size = get_user_input()
  spaces = len(str(size*size))+2
  display_heading(size,spaces)
- display_table(size,spaces)
  display_separator(size,spaces)
 main()
